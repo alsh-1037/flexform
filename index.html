@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="wraper">
+        <div class="header">
+            <div class="container">
+                <nav class="menu">
+                    <a class="menu-item" href="#">Meu YouBike</a>
+                    <a class="menu-item" href="#">Vender</a>
+                    <a class="menu-item" href="#">Forum</a>
+                    <a class="menu-item" href="#">Contato</a>
+                    <a class="menu-item" href="#">Ajuda </a>
+                    <img class="img_flag" src="img/flag.png" alt="">
+                    <p class="menu-item_unlink" href="">  Minhas Ofertas</p>
+                    <a class="menu-item_last" href="">Ola! Entrar ou Cadastre-se</a>
+                    
+                </nav>
+            </div>
+        </div>
+        <div class="content">
+            <div class="form_registration">
+                <div class="bloc1">
+                    <h2 class="form_text_main">Cadastre-se</h2>
+                </div>
+                <div class="form_text">
+                    <a href="#" class="fb btn">
+                        <i class="fa fa-facebook fa-fw"></i> <img class="logo_fb" src="img/fb.png" alt="" width="25px" height="25px"> Log in with
+                        Facebook
+                    </a>
+                    <p class="line">OU</p>
+                    <form class="form_text" action="mail.php" method="POST">
+                        <input type="hidden" name="project_name" value="Site_name">
+                        <input type="hidden" name="admin_email" value="shatrjuk13#gmail.com">
+                        <input type="hidden" name="form_subjekt" value="форма тестового сайта">
+                        <input class="input_txt" type="text" name="First Name" id="First Name" required placeholder="First Name">
+                        <input class="input_txt" type="text" name="Last_Name" required placeholder="Last Name">
+                        <input class="input_txt" type="email" name="Email_Address" id="" required placeholder="Email Address">
+                        <input class="input_txt" type="password" name="Choose_Password" required placeholder="Choose Password">
+                        <input class="input_txt" type="password" name="Password_Confirm" required placeholder="Password Confirm">
+                    
+                        <div>
+                        <label class="check">
+                            <input  type="checkbox" id="Send_me">
+                            Send me Youbike updates and tips
+                        </label>
+                        </div>
+                        <div class="create_ac">
+                            <button type="submit" class="btn_create_ac">Create my Account</button>
+                        </div>
+                    </form> 
+                    <p class="text_end">By clicking the button above, you agree to the Terms of Service
+                        <br>Xiew our Privacy Policy.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
